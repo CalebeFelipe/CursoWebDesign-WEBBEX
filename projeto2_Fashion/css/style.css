@@ -47,6 +47,7 @@ header nav ul li a {
     text-transform: uppercase;
     color: #025574;
     font-size: 12px;
+    transition: color .3s;
 }
 
 header nav ul li a:hover {
