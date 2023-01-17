@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: tahoma, arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#principal {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #0D1F2B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 0;
+}
+
+header .logo {
+    margin-left: 170px;
+}
+
+header nav {
+    margin-right: 50px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li a {
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #025574;
+    font-size: 12px;
+}
+
+header nav ul li a:hover {
+    color: #1189b4;
+}
+
+#hero img {
+    width: 100%;
+}
+
+#portfolio {
+    width: 80%;
+    margin: 100px auto;
+}
+
+#portfolio .model-description {
+    text-align: center;
+}
+
+#portfolio .model-description h1 {
+    font-size: 36px;
+    color: #252525;
+}
+
+#portfolio .model-description p {
+    margin-top: 30px;
+    line-height: 2;
+    color: #555; 
+}
+
+#portfolio .model-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#portfolio .model-cards .card {
+    text-align: center;
+}
+
+#portfolio .model-cards .card .title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: #505353d2;
+}
+
+#portfolio .model-cards .card p {
+    color: #9a9e9ed2;
+    margin-top: 10px;
+}
+
+#about {
+    padding: 110px;
+    background-color: #003D52;
+    background-image: url(../images/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+}
+
+#about h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#about p {
+    margin-top: 50px;
+    font-size: 17px;
+    width: 60%; 
+}
+
+#contact {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact address {
+    text-transform: uppercase; 
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    color: #143f52;
+}
+
+#contact .maps {
+    margin-top: 50px;
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #0b171f;
+    color: #6f8597;
+    letter-spacing: 8px;
+}
