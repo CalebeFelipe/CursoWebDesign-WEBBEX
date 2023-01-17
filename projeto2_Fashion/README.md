@@ -1,5 +1,5 @@
 <h1 align="center">
-     <a href="#" alt="website de agencia de viagem">Projeto 1 - Fashion</a>
+     <a href="#" alt="website de agencia de viagem">Projeto 2 - Fashion</a>
 </h1>
 
 <h3 align="center">
