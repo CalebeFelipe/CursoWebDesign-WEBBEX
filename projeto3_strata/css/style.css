@@ -86,6 +86,15 @@ li {
     padding-left: .5em;
 }
 
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 input, label, textarea, select {
     display: inline-block;
     width: 100%;
