@@ -1,13 +1,13 @@
 <h1 align="center">
-     <a href="#" alt="website de agencia de viagem">Projeto 3 - Strata</a>
+     <a href="#" alt="website de agencia de viagem">Projeto 2 - Fashion</a>
 </h1>
 
 <h3 align="center">
-    ✈️ Terceiro projeto do curso utilizando apenas HTML e CSS
+    ✈️ Segundo projeto do curso utilizando apenas HTML e CSS
 </h3>
 
 <h4 align="center">
-	🚧 em andamento 🚀 🚧
+	🚧 concluído 🚀 🚧
 </h4>
 
 <br />
