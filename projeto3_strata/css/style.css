@@ -378,3 +378,45 @@ address {
     border-right: 1px solid #78787898;
     padding-right: 10px;
 }
+
+.animation-hover {
+    position: relative;
+    display: block;
+}
+
+.animation-hover img {
+    width: 100%;
+    display: block;
+}
+
+.animation-hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: transparent;
+    transition: all .5s;   
+}
+
+.animation-hover:hover::before {
+    background: rgba(0, 0, 0, .5);
+}
+
+.animation-hover::after {
+    opacity: 0;
+}
+
+.animation-hover:hover::after {
+    content: 'Veja mais';
+    position: absolute;
+    border: 2px solid white;
+    color: white;
+    top: 50%;
+    left: 50%;
+    padding: 10px 20px;
+    transform: translate(-60px, -15px);
+    opacity: 1;
+}
