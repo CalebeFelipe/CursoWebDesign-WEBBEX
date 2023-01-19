@@ -14,6 +14,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oxygen', sans-serif;
 }
 
+.max-width {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background {
+    background: #f6f6f6;
+}
+
 .sr-only {
     position: absolute;
     left: -10000px;
@@ -21,6 +31,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.icon-desktop {
+    visibility: hidden;
 }
 
 .title {
@@ -75,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 .top-content {
     padding: 1.6rem;
     text-align: center;
-    background: #f6f6f6;
+    background-color: #f6f6f6;
 }
 
 .top-content-title {
@@ -92,8 +112,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .middle-content {
     padding: 3.2rem;
-    background: #f6f6f6;
     text-align: center;
+    display: grid;
+    gap: 3rem;
+}
+
+.background {
+    background: #f6f6f6;
 }
 
 .middle-content p {
@@ -108,10 +133,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content {
     padding: 3.2rem;
+    display: grid;
+    gap: 5.2rem;
 }
 
 .main-content-article {
-    margin-bottom: 5.2rem;
     line-height: 1.2;
 }
 
@@ -145,4 +171,84 @@ h1, h2, h3, h4, h5, h6 {
     color: rgba(255, 255, 255, 0.589);
 }
 
+@media screen and (min-width: 780px) {
+
+    .icon-desktop {
+        visibility: initial;
+        font-size: 8rem;
+    }
+
+    .top-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .top-header-nav {
+        background: transparent;
+    }
+
+    .top-header-nav ul {
+        display: flex;
+        margin-right: 1rem;
+    }
+
+    .top-header-nav ul li a {
+        color: #521a66;
+        font-weight: 600;
+        display: inline-block;
+    }
+
+    .top-header-nav ul li a:hover {
+        background-color: #7b379241;
+    }
+    
+    .top-content {
+        background-color: #521a66;
+    }
+
+    .top-content-title,
+    .top-content-subtitle,
+    .icon-desktop {
+        color: white;
+        margin-top: 2.5rem;
+    }
+
+    .middle-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-content-article .btn-default {
+        float: right;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .top-content {
+        background: #521a66 url(../images/bg_topo_1198x670.jpg);
+        padding: 12em 1em 4em;
+    }
+
+}
+
+@media screen and (min-width: 1184px) {
+    .top-content {
+        background: url(../images/bg_topo_1600x1374.jpg) center top;
+        padding: 19em 20em 8em;
+    }
+
+    .icon-desktop {
+        font-size: 10rem;
+    }
+
+    .middle-content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .main-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
