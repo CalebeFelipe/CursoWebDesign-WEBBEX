@@ -7,11 +7,11 @@
 </h3>
 
 <h4 align="center">
-	🚧 em andamento 🚀 🚧
+	🚧 concluído 🚀 🚧
 </h4>
 
 <br />
-<!--<img align="center" src="./images/layout-desktop.gif" alt="animação da interação com página">-->
+<img align="center" src="./images/layout-responsivo.gif" alt="animação da interação com página">
 <br><br>
 
 ## 🧠 Aprendizados
