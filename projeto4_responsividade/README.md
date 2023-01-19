@@ -14,6 +14,12 @@
 <!--<img align="center" src="./images/layout-desktop.gif" alt="animação da interação com página">-->
 <br><br>
 
+## 🧠 Aprendizados
+
+- Utilizar o conceito do **[Mobile First](https://blog.apiki.com/mobile-first-o-conceito-e-sua-aplicabilidade/)** para otimizar a criação de páginas responsivas
+
+- Qual a melhor unidade de medida para se utilizar visando acessibilidade e responsividade (**[CSS REM vs EM vs PX](https://blog.apiki.com/mobile-first-o-conceito-e-sua-aplicabilidade/)**)
+
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
