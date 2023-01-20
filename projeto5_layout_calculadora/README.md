@@ -10,11 +10,21 @@
 	🚧 concluído 🚀 🚧
 </h4>
 
-<!-- <br />
-<img align="center" src="./calculadora_curso/images/layout-responsivo.gif" alt="animação da interação com página">
-<br><br>
-<img align="center" src="./images/layout-responsivo.gif" alt="animação da interação com página">-->
+<h2 align="center">
+   📱Layout - Calculadora Curso 
+</h2>
 
+
+<br />
+<img align="center" src="./calculadora_curso/images/layout-calculadora-curso.gif" alt="animação da interação com página">
+<br><br>
+
+<h2 align="center">
+    📱 Layout - Calculadora Iphone 
+</h2>
+<br />
+<img align="center" src="./calculadora_iphone/images/layout-calculadora-iphone.gif" alt="animação da interação com página">
+<br><br>
 
 ## 🧠 Aprendizados
 
