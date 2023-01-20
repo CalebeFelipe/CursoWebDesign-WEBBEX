@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+    <div id="calculator">
+        <input type="text" id="display" disabled>
+        <button onclick="calcular('acao', 'c')">AC</button> <button>%</button> <button onclick="calcular('acao', '*')" >X</button> <button onclick="calcular('acao', '/')">/</button>
+        <button>7</button> <button onclick="calcular('valor', 8)">8</button> <button>9</button> <button onclick="calcular('acao', '=')">=</button>
+        <button>4</button> <button>5</button> <button>6</button> <button onclick="calcular('acao', '-')" >-</button>
+        <button>1</button> <button>2</button> <button>3</button> <button onclick="calcular('acao', '+')" class="sum">+</button>
+        <button class="zero">0</button> <button>,</button>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
