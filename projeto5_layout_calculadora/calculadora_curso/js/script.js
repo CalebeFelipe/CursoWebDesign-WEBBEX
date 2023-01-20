@@ -36,6 +36,10 @@ document.querySelector('body').addEventListener('keyup', function (event) {
         display.value += tecla
     }
 
+    if (tecla == 'q') {
+        document.getElementById('visor').value += '/'
+    }
+
     if(tecla == 'Backspace') {
         display.value = ''
     }

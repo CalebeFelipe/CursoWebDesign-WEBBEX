@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="scroll"></div>
+        <input type="text" id="visor" class="visor" disabled>
+        <button onclick="calcular('acao', 'c')" class="botao gray">AC</button>
+        <button class="botao gray">+/-</button>
+        <button class="botao gray">%</button>
+        <button onclick="calcular('acao', '/')" class="botao laranja">&#247;</button> <!--divisão-->
+        <button onclick="calcular('valor', 7)" class="botao black">7</button>
+        <button onclick="calcular('valor', 8)" class="botao black">8</button>
+        <button onclick="calcular('valor', 9)"class="botao black">9</button>
+        <button onclick="calcular('acao', '*')" class="botao laranja">&#215;</button> <!--multiplicação-->
+        <button onclick="calcular('valor', 4)" class="botao black">4</button>
+        <button onclick="calcular('valor', 5)" class="botao black">5</button>
+        <button onclick="calcular('valor', 6)" class="botao black">6</button>
+        <button onclick="calcular('acao', '-')" class="botao laranja">-</button>
+        <button onclick="calcular('valor', 1)" class="botao black">1</button>
+        <button onclick="calcular('valor', 2)" class="botao black">2</button>
+        <button onclick="calcular('valor', 3)" class="botao black">3</button>
+        <button onclick="calcular('acao', '+')" class="botao laranja">+</button>
+        <button onclick="calcular('valor', 0)" class="zero black">0</button>
+        <button onclick="calcular('acao', '.')" class="botao black">,</button>
+        <button onclick="calcular('acao', '=')" class="botao laranja">=</button>
+        <div class="scroll"><span></span></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
