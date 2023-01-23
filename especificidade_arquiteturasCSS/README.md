@@ -14,7 +14,10 @@
 
 - Afinal como escrever CSS ? **[OOCSS, SMACSS, BEM, DRY](https://tableless.com.br/oocss-smacss-bem-dry-css-afinal-como-escrever-css/)**
 
+- Arquitetura **[ITCSS](https://imasters.com.br/arquitetura-da-informacao/arquitetura-css-itcss)**
+
 - Como construir uma **[Arquitetura CSS Robusta e Escalável ?](https://medium.com/tableless/8-regras-simples-para-uma-arquitetura-css-robusta-e-escal%C3%A1vel-545c6dade170)**
+
 
 
 ## 🛠 Tecnologias
