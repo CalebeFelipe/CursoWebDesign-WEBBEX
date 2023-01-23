@@ -28,35 +28,19 @@ body {
 }
 
 @keyframes slide {
-    0% {
+    0%, 22% {
         transform: translateY(0);
     }
-
-    22% {
-        transform: translateY(0);
-    }
-    /*transição*/
-    25% {
+    
+    25%, 47% {
         transform: translateY(-80vh)
     }
-
-    47% {
-        transform: translateY(-80vh);
-    }
     
-    50% {
+    50%, 72% {
         transform: translateY(-160vh);
     }
 
-    72% {
-        transform: translateY(-160vh);
-    }
-
-    75% {
-        transform: translateY(-240vh);
-    }
-    
-    97% {
+    75%, 97% {
         transform: translateY(-240vh);
     }
 
