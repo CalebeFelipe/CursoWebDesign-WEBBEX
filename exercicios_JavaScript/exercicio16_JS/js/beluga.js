@@ -23,9 +23,5 @@ export const sortear = (n = 0) => {
 }
 
 export function aprovadoOuReprovado(tds) {
-    if(tds.some((item) => item == 0)) {
-        return 'reprovado'
-    }
-
-    return 'aprovado'
+    return (tds.some((item) => item == 0)) ? 'reprovado' : 'aprovado';
 }
