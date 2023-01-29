@@ -1,6 +1,6 @@
 let ul = document.querySelector('ul');
 let itensLista = ul.querySelectorAll('li');
-let btnRemover = document.querySelectorAll('.apagar')
+let btnRemover = document.querySelectorAll('.apagar');
 let inputTextTarefa = document.querySelector('#txtTarefa');
 let btnCadastrar = document.querySelector('#btnCadastrarTarefa');
 
@@ -21,27 +21,45 @@ function inserirNovaTarefa(){
     li.appendChild(link);
     li.appendChild(btnApagar);
     ul.appendChild(li);
+
+    btnRemover = document.querySelectorAll('.apagar');
     
+    percorrerNodeList()
+
     inputTextTarefa.value = '';
     inputTextTarefa.focus();
 }
+
+function percorrerNodeList(){
+    for(let i = 0; i < btnRemover.length; i++){
+        addEvent(btnRemover[i]);
+        console.log(btnRemover[i])
+    }
+}
+
+percorrerNodeList()
 
 function toggleDone(li) {
     li.classList.toggle('done');
 }
 
+function addEvent(item){
+    item.addEventListener('click', apagarItem);
+}
+
+function apagarItem(){
+    if(confirm('Deseja realmente excluir?')){
+       this.parentNode.parentNode.removeChild(this.parentNode)
+    }
+}
+
+
+//Eventos
 ul.addEventListener('click', function(e){
     if(e.target.nodeName === 'A'){
         toggleDone(e.target);
     }
 })
-
-for(let i = 0; i < btnRemover.length; i++){
-    console.log(btnRemover[i].parentNode)
-}
-
-
-
 btnCadastrar
     .addEventListener('click', inserirNovaTarefa);
 inputTextTarefa
