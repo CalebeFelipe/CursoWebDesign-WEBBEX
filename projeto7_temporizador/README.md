@@ -7,7 +7,7 @@
 </h3>
 
 <h4 align="center">
-	🚧 concluído 🚀 🚧
+	🚧 em andamento 🚀 🚧
 </h4>
 
 <br />
