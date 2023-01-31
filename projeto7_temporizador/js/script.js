@@ -42,8 +42,11 @@
     let timestampTempoDecorrido = 0;
     let rodando = false;
 
+
+
     function iniciar(){
         if(rodando) return
+        parar()
         timestampClickIniciar = Date.now()
         iniciarCronometro()
         rodando = true
@@ -60,19 +63,22 @@
     }
 
     function formataTimestamp(ms){
+        const umMinuto = 60 * 1000
+
+
+
         if(ms < 1000){
             return ms
-        } else if(ms < 60000){
+        } else if(ms < umMinuto){
             segundo = parseInt(ms/1000)
             centesimo = ms - (segundo*1000)
 
             return `${segundo}:${centesimo}`
         } else {
-            minuto = parseInt(ms / 60000)
-            segundo = parseInt(ms / 1000) - (minuto * 60)
-            centesimo = ms - (segundo*1000) - (minuto * 60 * 1000)
+            minuto = parseInt(ms / umMinuto)
 
-            return `${minuto}:${segundo}:${centesimo}`
+            //função recursiva
+            return `${minuto}:${formataTimestamp( ms - minuto * umMinuto)}`
         }
     }
 
@@ -82,14 +88,14 @@
             clearInterval(intervalo)
             timestampClickPausar = Date.now()
             timestampTempoDecorrido += (timestampClickPausar - timestampClickIniciar)
-            rodando = false
-            $btnPausar.textContent = 'Continuar'
+            
         } else {
             timestampClickIniciar = Date.now()
             iniciarCronometro(timestampTempoDecorrido)
-            rodando = true
             $btnPausar.textContent = 'Pausar'
         }
+
+        rodando = !rodando
     }
 
     function parar(){
