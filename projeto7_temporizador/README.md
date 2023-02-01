@@ -7,7 +7,7 @@
 </h3>
 
 <h4 align="center">
-	🚧 em andamento 🚀 🚧
+	🚧 concluído 🚀 🚧
 </h4>
 
 <br />
@@ -16,6 +16,11 @@
 
 
 ## 🧠 Aprendizados
+- Como utilizar o **[setInterval](https://www.w3schools.com/jsref/met_win_setinterval.asp)** e o **[setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)**
+
+- Conceitos como o **[timestamp](https://horadecodar.com.br/2020/09/11/como-obter-o-timestamp-em-javascript/)** 
+
+- E todos os métodos do objeto **[Date](http://www.linhadecodigo.com.br/artigo/1003/entendendo-o-objeto-date-do-javascript.aspx)** 
 
 
 
