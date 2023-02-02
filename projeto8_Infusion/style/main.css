@@ -15,6 +15,32 @@ img{
     padding-right: 1em;
 }
 
+.button {
+    padding: 15px 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: background .5s;
+}
+
+.button:hover {
+    background-color: #929da5;
+}
+
+.btn-primary {
+    background-color: #69c6ae;
+    color: white;
+}
+
+.btn-secundary {
+    background-color: #455357;
+    color: white;
+}
+
 /******* HEADER *******/
 
 .header{
@@ -158,4 +184,25 @@ img{
 .people-cards__text{
     color: #929da5;
     font-size: 14px;
+}
+
+/****** CONTENT ******/
+
+.content {
+    background: #f8f9f9;
+    padding: 20px 0 80px;
+    border-top: 1px solid #e3e3e3;
+}
+
+.content h3 {
+    color: #737c85;
+    font-size: 21px;
+    padding-top: 40px;
+    font-weight: 400;
+}
+
+.content p {
+    color: #929da5;
+    font-size: 14px;
+    word-spacing: 3px;
 }
