@@ -284,6 +284,10 @@ img{
     font-size: 14px;
 }
 
+.footer__logo {
+    text-transform: uppercase;
+}
+
 .footer__links li {
     list-style: none;
 }
@@ -294,6 +298,7 @@ img{
     font-weight: 600;
     text-decoration: none;
     transition: all .5s;
+    width: 100px;
 }
 
 .footer__links a:hover{
@@ -346,4 +351,16 @@ img{
         display: flex;
         gap: 30px;
     }
+
+    .last-articles__thumbs {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .footer .container{
+        display: flex;
+    }
+
+    .footer .container > * {
+        margin: 1.5em;
+    } 
 }
