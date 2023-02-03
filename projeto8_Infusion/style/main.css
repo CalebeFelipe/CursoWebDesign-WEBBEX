@@ -60,6 +60,7 @@ img{
     font-weight: bold;
     color: #fff;
     float: left;
+    text-align: right;
 }
 
 .header__nav{
@@ -309,7 +310,6 @@ img{
     .logo-text { 
         width: 25%;
         box-sizing: border-box;
-        text-align: right;
     }
 
     .header__btnMenu {
@@ -338,6 +338,11 @@ img{
     }
 
     .people-cards {
+        display: flex;
+        gap: 30px;
+    }
+
+    .content .container {
         display: flex;
         gap: 30px;
     }
