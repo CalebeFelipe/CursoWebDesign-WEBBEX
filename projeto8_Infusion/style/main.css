@@ -84,7 +84,7 @@ img{
     font-size: 14px;
     font-weight: 600;
     display: block;
-    padding: 25px;
+    padding: 25px 0;
     transition: .5s ease;
 }
 
@@ -296,4 +296,43 @@ img{
 
 .footer__links a:hover{
     color: #63c6ae;
+}
+
+/******* RESPONSIVE *******/
+
+@media screen and (min-width: 1024px){
+    .header {
+        position: fixed;
+    }
+
+    .logo-text { 
+        width: 25%;
+        box-sizing: border-box;
+        text-align: right;
+    }
+
+    .header__btnMenu {
+        display: none;
+    }
+
+    .header__nav {
+        float: left;
+        width: 75%;
+        clear: none;
+        max-width: 800px;
+    }
+
+    .header__nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header__nav li {
+        border-bottom: none;
+        flex-grow: 1;
+    }
+
+    .header__nav a {
+        background-color: white;
+    }
 }
