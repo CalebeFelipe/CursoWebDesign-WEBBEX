@@ -13,6 +13,7 @@ img{
     margin-left: auto;
     padding-left: 1em;
     padding-right: 1em;
+    max-width: 980px;
 }
 
 .button {
@@ -334,5 +335,10 @@ img{
 
     .header__nav a {
         background-color: white;
+    }
+
+    .people-cards {
+        display: flex;
+        gap: 30px;
     }
 }
