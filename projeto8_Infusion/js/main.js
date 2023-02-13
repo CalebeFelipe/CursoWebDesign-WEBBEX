@@ -8,4 +8,11 @@
         toggleBtn: '.header__btnMenu',
         widthEnabled: 1024
     })
+
+    let carouselImgs = new Carousel({
+        container: '.laptop-slider .slideshow',
+        itens: 'figure',
+        btnPrev: '.prev',
+        btnNext: '.next'
+    })
 })()
